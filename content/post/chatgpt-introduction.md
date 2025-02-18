@@ -2,7 +2,7 @@
 title: "ChatGPT：革命性的对话AI模型"
 description: "深入了解ChatGPT的工作原理、应用场景和未来发展"
 date: 2024-02-18
-image: /img/chatgpt.jpg
+image: "/img/chatgpt.jpg"
 categories:
     - AI
     - 深度学习
@@ -11,6 +11,7 @@ tags:
     - OpenAI
     - 自然语言处理
     - AI应用
+slug: "chatgpt-introduction"
 ---
 
 ## ChatGPT简介
@@ -53,4 +54,4 @@ ChatGPT在多个领域都展现出了巨大的应用潜力：
 
 ## 结语
 
-ChatGPT的出现标志着AI技术的一个重要里程碑，它不仅改变了人们与计算机交互的方式，也为未来AI发展指明了方向。我们期待看到更多创新应用的出现，推动AI技术继续向前发展。 
+ChatGPT的出现标志着AI技术的一个重要里程碑，它不仅改变了人们与计算机交互的方式，也为未来AI发展指明了方向。我们期待看到更多创新应用的出现，推动AI技术继续向前发展。

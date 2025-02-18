@@ -2,6 +2,12 @@
 title: "关于冰洋AI探索"
 date: 2024-02-18
 layout: "about"
+slug: "about"
+menu:
+    main:
+        weight: -90
+        params:
+            icon: user
 ---
 
 ## 关于本站
@@ -25,7 +31,7 @@ layout: "about"
 ## 联系方式
 
 - Email: bingyang@example.com
-- GitHub: [github.com/bingyang](https://github.com/bingyang)
+- GitHub: [bingyang87628](https://github.com/bingyang87628)
 
 ## 订阅本站
 
@@ -35,4 +41,4 @@ layout: "about"
 2. 关注GitHub
 3. 电子邮件订阅
 
-感谢您的关注！ 
+感谢您的关注！
