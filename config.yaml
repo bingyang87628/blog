@@ -3,7 +3,7 @@ module:
         extended: true
         min: "0.87.0"
 
-baseURL: https://bingyang-blog.github.io/
+baseURL: https://bingyang87628.github.io/bingyang-blog.github.io/
 languageCode: zh-cn
 title: 冰洋AI探索
 theme: stack
