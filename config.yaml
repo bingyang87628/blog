@@ -3,7 +3,7 @@ module:
         extended: true
         min: "0.87.0"
 
-baseURL: "https://bingyang87628.github.io/bingyang-blog.github.io"
+baseURL: "https://bingyang87628.github.io/blog"
 languageCode: "zh-cn"
 title: "冰洋AI探索"
 theme: "stack"
@@ -12,8 +12,11 @@ paginate: 10
 defaultContentLanguage: "zh-cn"
 defaultContentLanguageInSubdir: false
 
+hasCJKLanguage: true
+summaryLength: 100
+
 permalinks:
-    post: "/post/:slug/"
+    post: "/p/:slug/"
     page: "/:slug/"
 
 params:
@@ -21,7 +24,7 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: "/img/favicon.ico"
+    favicon: "img/favicon.ico"
 
     footer:
         since: 2024
@@ -38,7 +41,7 @@ params:
         avatar:
             enabled: true
             local: true
-            src: "/img/avatar.png"
+            src: "img/avatar.png"
 
     article:
         math: true
@@ -177,7 +180,6 @@ menu:
           url: /
           weight: -100
           params:
-              newTab: false
               icon: home
         
         - identifier: about
@@ -185,7 +187,6 @@ menu:
           url: /about
           weight: -90
           params:
-              newTab: false
               icon: user
 
         - identifier: archives
@@ -193,7 +194,6 @@ menu:
           url: /archives
           weight: -70
           params:
-              newTab: false
               icon: archives
 
         - identifier: search
@@ -201,5 +201,4 @@ menu:
           url: /search
           weight: -60
           params:
-              newTab: false
               icon: search
